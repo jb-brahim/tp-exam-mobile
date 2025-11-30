@@ -1,0 +1,114 @@
+# ============================================================
+# 🧩 Chronaxis - Monorepo .gitignore
+# Backend (Node.js + Express + TypeScript)
+# Frontend (React + JavaScript)
+# ============================================================
+
+# ------------------------------------------------------------
+# 🔹 Logs
+# ------------------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------------------------------------
+# 🔹 Runtime data
+# ------------------------------------------------------------
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ------------------------------------------------------------
+# 🔹 Dependency directories
+# ------------------------------------------------------------
+node_modules/
+bower_components/
+jspm_packages/
+/.pnp
+.pnp.js
+
+# ------------------------------------------------------------
+# 🔹 Build outputs
+# ------------------------------------------------------------
+dist/
+build/
+.next/
+build/Release
+lib-cov
+coverage/
+.nyc_output
+.grunt
+
+# ------------------------------------------------------------
+# 🔹 TypeScript / JS tools
+# ------------------------------------------------------------
+typings/
+.lock-wscript
+.npm
+.eslintcache
+.node_repl_history
+.yarn-integrity
+
+# ------------------------------------------------------------
+# 🔹 Environment variables
+# ------------------------------------------------------------
+# Global (racine)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.vercel
+
+# Backend
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+
+# Frontend
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+
+# ------------------------------------------------------------
+# 🔹 Miscellaneous
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.tgz
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+.vercel
+
+# ------------------------------------------------------------
+# 🔹 IDEs & Editors
+# ------------------------------------------------------------
+.vscode/
+.idea/
+
+# ------------------------------------------------------------
+# 🔹 Optional directories
+# ------------------------------------------------------------
+/coverage
+/.vercel
+
+# ------------------------------------------------------------
+# 🔹 Dossiers vides à garder
+# ------------------------------------------------------------
+# Permet de conserver certains dossiers nécessaires dans Git
+# (utilise un fichier vide nommé .gitkeep)
+!backend/.gitkeep
+!frontend/.gitkeep
+
+# ------------------------------------------------------------
+# 🔹 Documentation / Misc
+# ------------------------------------------------------------
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
